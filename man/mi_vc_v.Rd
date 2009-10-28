@@ -1,7 +1,7 @@
 \name{mi_vc_v}
 \alias{mi_vc_v}
 \docType{data}
-\title{Example\_1}
+\title{Example Data}
 \description{
   example data
 }

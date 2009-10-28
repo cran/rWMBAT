@@ -22,7 +22,7 @@
 }
 \references{http://kwkusc.people.wm.edu/dissertation/dissertation.htm }
 \author{Karl Kuschner, Qian Si and William Cooke , College of William and Mary, Dept. of Physics, 2009.}
-\note{CALLED FUNCTIONS
+\note{CALLED FUNCTIONS:
        automi(finds an MI threshold based on data)
        findmutualinfos(finds all values MI(VC), MI(VV) and MI(VC|V))
 }

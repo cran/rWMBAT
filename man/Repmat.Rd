@@ -2,7 +2,7 @@
 \alias{Repmat}
 \title{Creates A Large Matrix Consisting Of An m-by-n Tiling Of Copies Of x}
 \description{
- creates a large matrix  consisting of an m-by-n tiling of copies of X
+ Creates a large matrix  consisting of an m-by-n tiling of copies of X
 }
 \usage{
 Repmat(X, m, n)

@@ -2,8 +2,8 @@
 \alias{looklr}
 \title{Finds Boundary}
 \description{
- given a start position, finds another boundary (to create 3 bins) that
- maximizes MI with the class
+ Given a start position, finds another boundary (to create 3 bins) that
+ maximizes MI with the class.
 }
 \usage{
 looklr(data, class, startbd, steps)
@@ -12,7 +12,7 @@ looklr(data, class, startbd, steps)
   \item{data}{double array, cases in rows and variables in columns}
   \item{class}{double column vector, values 1:c representing classification of each case  }
   \item{startbd}{double vector, given start position for each case }
-  \item{steps}{Integer, number of steps to test at while finding maximum MI}
+  \item{steps}{integer, number of steps to test at while finding maximum MI}
 }
 \value{
   \item{miout }{double vector, recorded highest MI value}

@@ -23,7 +23,7 @@ ChooseMetaVars(data, class, adj)
 }
 \references{http://kwkusc.people.wm.edu/dissertation/dissertation.htm }
 \author{Karl Kuschner, Qian Si and William Cooke, College of William and Mary, Dept. of Physics, 2009}
-\note{CALLED FUNCTIONS
+\note{CALLED FUNCTIONS:
       opt3bin(rebins combined variables to determine highest MI)}
 \examples{
 data(traingrp, traingrpclass, adjmat) # load example input data in the package

@@ -4,7 +4,7 @@
 \title{Example Data}
 \description{Logical 6x1 array}
 \usage{data(Options)}
-\details{Options are
+\details{Options are:
           1. Normalize on population total ion count (sum across rows)
           2. Remove negative data values by setting them to zero
           3. After normalizing, before binning, average cases with same ID

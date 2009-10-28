@@ -1,6 +1,6 @@
 \name{automi}
 \alias{automi}
-\title{Automi Finds A Threshold For Randomized MI(V C)}
+\title{Finds A Threshold For Randomized MI(V C)}
 \description{
  Finds the threshold of a data set's mutual information with a class
  vector, above which a variable's MI(class, variable) can be

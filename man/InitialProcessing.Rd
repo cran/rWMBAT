@@ -1,7 +1,7 @@
 \name{InitialProcessing}
 \alias{InitialProcessing}
 \title{INITIALPROCESSING Inital Prep of Data from Signal Processing}
-\description{Takes Peaklists That Have Been Imported into R And Prepares Them For Bayesian Analysis}
+\description{Takes peak list which has been imported into R and prepares the peak list For Bayesian Analysis}
 \usage{
 InitialProcessing(StructIn)
 }

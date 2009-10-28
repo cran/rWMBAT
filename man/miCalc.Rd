@@ -1,7 +1,7 @@
 \name{miCalc}
 \alias{miCalc}
-\title{C Code to Speed the Calculation of Mutual Information}
-\description{C Code to Speed the Calculation of Mutual Information}
+\title{C code to Speed the Calculation of Mutual Information}
+\description{C code to Speed the Calculation of Mutual Information}
 \usage{
 miCalc(v1, v2, n, MI)
 }

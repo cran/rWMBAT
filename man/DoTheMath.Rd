@@ -14,7 +14,7 @@ DoTheMath(InputStructure)
            Class:Vector of length "cases", with discrete values identifying class of each case (may be integer).
            ID:double patient ID array of length cases, with one or more cols.
            MZ:vector of length "variables" holding labels for variables.
-           Options:logical 6x1 array. Options are,
+           Options:logical 6x1 array. Options are:
               1. Normalize on population total ion count (sum across rows).
               2. Remove negative data values by setting them to zero.
               3. After normalizing, before binning, average cases with same ID.

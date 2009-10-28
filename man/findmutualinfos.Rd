@@ -1,6 +1,6 @@
 \name{findmutualinfos}
 \alias{findmutualinfos}
-\title{Find Various Mutual Info Combos among Variables}
+\title{Finds Various Mutual Info Combos among Variables}
 \description{Given a set of data (many cases, each with values for many variables) and an additional value stored in the vector class, it finds MI described below in "Value."
 }
 \usage{

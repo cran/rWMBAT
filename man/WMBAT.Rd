@@ -37,7 +37,7 @@ WMBAT(tofListMetaData, alignedPeakList, Options, nfold, repeats, threshold)
   \item{IntOut }{double Intensities input array, after processing by the various options selected by the logical Options above}
   \item{IDOut }{double vector,the ID number of each row in the IntOut array. With no replicate averaging, each ID will be preserved (but reformatted) from the input.  With replicate averaging, only the primary ID number remains.}
   \item{PredClass }{double matrix,the predicted class of each case, during each of the trials (from input "repeats") }
-  \item{Class2Vars }{vector whose ith value is the fraction of times peak i (from the vector MZ) was selected as being connected to the class. The maximum times it could have been selected was nfold*repeats}
+  \item{Class2Vars }{vector whose ith value is the fraction of times peak i (from the vector MZ) was selected as being connected to the class. The maximum times it could have been selected was nfold*repeats,use which (Class2Vars > 0.5) to find those variables selected more than 0.5 = 50 percent}
   \item{Var2Vars }{integer array whose (i,j) entry is the fraction of times a second level link was found from peak i to peak j, when peak i was connected to the class, as found in SumLvl1}
   \item{MetaVars }{integer array whose (i,j) entry is the fraction of times a metavariable was created using peak i and peak j and stored in the level}
   \item{TrialErr }{double vector, the error rate for each of the "repeats" possible trials. Records the percentage of cases where PredClass was not equal to the input Class.}

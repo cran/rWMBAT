@@ -1,7 +1,7 @@
 \name{MutualInfo}
 \alias{MutualInfo}
-\title{Calculating Mutual Information Of The Two Variables}
-\description{calculating mutual information of the two variables}
+\title{Calculates Mutual Information Of The Two Variables}
+\description{Calculates mutual information of the two variables}
 \usage{
 MutualInfo(v1, v2)
 }

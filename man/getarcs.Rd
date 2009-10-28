@@ -11,7 +11,7 @@ described below.
 getarcs(mvc, vcthreshold, mvv, vvthreshold)
 }
 \arguments{
-  \item{mvc}{double vector [array] with mutual information between variables and the class [variables and other variables]. The (i,j) entries of mvv are MI(Vi,Vj)}
+  \item{mvc}{double vector array with mutual information between variables and the class (variables and other variables). The (i,j) entries of mvv are MI(Vi,Vj)}
   \item{vcthreshold}{scalar threshold used to test for existence linkz }
   \item{mvv}{double vector matrix}
   \item{vvthreshold}{scalar threshold used to test for existence linkz}
